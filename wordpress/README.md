@@ -6,7 +6,7 @@
 
 ### Ambiente para fazer o exercício:
 
-Para esse exercício você deverá ter o Wordpress instalado em sua máquina para desenvolvimento.
+Para esse exercício você deverá ter o [Wordpress instalado](https://br.wordpress.org/) em sua máquina para desenvolvimento.
 
 Você poderá:
 
