@@ -37,6 +37,6 @@ Você terá até 01/09/2018 às 23 h 59 min para encaminhar o exercício conform
 
 ### Enviando o exercício
 
-Você deverá retornar para webmaster@macweb.com.br o seu tema em formato zip (zipar a pasta do tema criado).
+Você deverá retornar para webmaster@macweb.com.br o seu tema em formato zip (zipar a pasta do tema criado). Assunto do E-mail: "Estagio MacWeb: Teste Wordpress" (sem aspas).
 
 Nós iremos rodar a instalação do tema em nosso ambiente de teste e testar os itens citados.
