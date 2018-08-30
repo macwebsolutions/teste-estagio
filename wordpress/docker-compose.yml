@@ -26,7 +26,7 @@ services:
       # Os arquivos do Wordpress serão instalados na pasta /wordpress, seu tema será colocado na pasta /wordpress/wp-content/themes para desenvolvimento
       - ./wordpress:/var/www/html
     environment:
-      WORDPRESS_DB_HOST: wordpress
+      WORDPRESS_DB_HOST: mysql
       WORDPRESS_DB_USER: wordpress
       WORDPRESS_DB_PASSWORD: 1q2w3e4r
       WORDPRESS_DB_NAME: wordpress
