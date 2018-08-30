@@ -33,7 +33,7 @@ Você tem a liberdade de consultar os materiais web do [Codex Wordpress](https:/
 
 ### Prazo
 
-Você terá até 01/09 às 23 h 59 min para encaminhar o exercício conforme informado abaixo.
+Você terá até 01/09/2018 às 23 h 59 min para encaminhar o exercício conforme informado abaixo.
 
 ### Enviando o exercício
 
