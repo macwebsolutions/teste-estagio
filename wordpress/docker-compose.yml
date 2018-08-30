@@ -2,15 +2,15 @@ version: '3'
 
 services:
 
-	mysql:
-		image: mysql:5.7
-		ports:
-			# altere o número antes de do ':' caso a porta já esteja sendo utilizada em seu sistema
-			- 3306:3306
-		volumes:
-			- ./.data/db:/var/lib/mysql
-		environment:
-			MYSQL_ROOT_PASSWORD: 1q2w3e4r
+  mysql:
+    image: mysql:5.7
+    ports:
+      # altere o número antes de do ':' caso a porta já esteja sendo utilizada em seu sistema
+      - 3306:3306
+    volumes:
+      - ./.data/db:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: 1q2w3e4r
       MYSQL_DATABASE: wordpress
       MYSQL_USER: wordpress
       MYSQL_PASSWORD: 1q2w3e4r
@@ -20,7 +20,7 @@ services:
     depends_on:
       - mysql
     ports:
-    	# altere o número antes de do ':' caso a porta já esteja sendo utilizada em seu sistema
+      # altere o número antes de do ':' caso a porta já esteja sendo utilizada em seu sistema
       - 80:80
     volumes:
       # Os arquivos do Wordpress serão instalados na pasta /wordpress, seu tema será colocado na pasta /wordpress/wp-content/themes para desenvolvimento

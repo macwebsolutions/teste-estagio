@@ -11,15 +11,15 @@ Para esse exercício você deverá ter o Wordpress instalado em sua máquina par
 Você poderá:
 
 1. Em ambiente Windows você pode utilizar o [WAMP](http://www.wampserver.com/en/#download-wrapper) em sua máquina para instalar o servidor web Apache + MySQL + PHP para então instalar o Wordpress localmente
-2. Instalar o [Docker](https://www.docker.com/get-started) e usar o Docker Compose - [arquivo docker-compose preparado aqui]() - para subir uma instância do Wordpress em sua máquina.
+2. Instalar o [Docker](https://www.docker.com/get-started) e usar o Docker Compose - [arquivo docker-compose preparado aqui](https://github.com/macwebsolutions/teste-estagio/blob/master/wordpress/docker-compose.yml) - para subir uma instância do Wordpress em sua máquina.
 
 **Caso escolha item 2. Docker**
 
 Após instalar o Docker:
 
-2.1. [Baixar o docker-compose.yml]() e salvar em uma pasta
-2.2. Acessar a pasta via terminal e rodar `docker-compose up -d`
-2.3. Aguarde até o Docker subir a instância, após basta acessar `http://localhost` em seu navegador para iniciar a instalação do Wordpress
+1. [Baixar o docker-compose.yml](https://github.com/macwebsolutions/teste-estagio/blob/master/wordpress/docker-compose.yml) e salvar em uma pasta
+2. Acessar a pasta via terminal e rodar `docker-compose up -d`
+3. Aguarde até o Docker subir a instância, após basta acessar `http://localhost` em seu navegador para iniciar a instalação do Wordpress
 
 ### Tarefa
 
